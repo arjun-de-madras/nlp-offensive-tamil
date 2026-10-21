@@ -1,0 +1,9 @@
+# large model weights (~1 GB) - regenerate with run.sh or host on Drive / HF Hub
+artifacts/transformer/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+executed.ipynb
+.gradio/
+*.zip
+.DS_Store

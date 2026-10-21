@@ -1,0 +1,21 @@
+# Core ML stack (the notebook was run on Colab: Python 3.13, torch 2.11, Tesla T4)
+torch>=2.2
+transformers>=4.40
+datasets>=2.19
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+joblib>=1.3
+tqdm
+psutil
+matplotlib
+tabulate
+
+# Demo / API
+gradio>=4.0
+
+# Needed by run.sh to execute the notebook headlessly
+jupyter
+nbconvert
+ipykernel
